@@ -1,3 +1,41 @@
-h2{
+h2 {
     color: blueviolet;
 }
+
+h1 {
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+section form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form input {
+    padding: 2px;
+    font-size: 14px;
+}
+
+form input[type="submit"] {
+    width: 70px;
+    height: 25px;
+    margin-top: 15px;
+    background-color: yellow;
+    border-radius: 6px;
+}
+
+table th tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
